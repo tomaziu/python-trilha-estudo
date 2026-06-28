@@ -57,5 +57,11 @@ Comprehensions tornam o código mais curto, mais rápido e mais "Pythonic". É u
 
 ## Exercícios
 
-- `exercicio_1.py` — listas filtradas com comprehension
-- `exercicio_2.py` — dicionários dinâmicos
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Criar listas filtradas em uma única linha | List comprehension, filtros com `if`, `[::−1]` |
+| `exercicio_2.py` | Criar dicionários e sets dinâmicos | Dict comprehension `{chave: valor for...}`, set comprehension `{expr for...}` |
+
+**O que cada exercício ensina:**
+- **exercicio_1.py**: Como substituir um loop de 4 linhas por 1 linha usando `[expressão for item in lista]`
+- **exercicio_2.py**: Como criar dicionários com `{chave: valor for...}` e sets com `{expr for...}` para remover duplicatas

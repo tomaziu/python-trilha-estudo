@@ -78,5 +78,11 @@ Código sem boas práticas funciona, mas é difícil de ler, manter e compartilh
 
 ## Exercícios
 
-- `exercicio_1.py` — refatoração com PEP8
-- `exercicio_2.py` — adição de type hints
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Escrever código formatado seguindo PEP8 | snake_case, PascalCase, espaços, indentação, type hints |
+| `exercicio_2.py` | Criar calculadora de IMC com funções organizadas | `def` com type hints, validação, `if __name__ == "__main__"` |
+
+**O que cada exercício ensina:**
+- **exercicio_1.py**: As regras de formatação do PEP8 (espaços, nomes, indentação) e como aplicá-las em código real
+- **exercicio_2.py**: Como usar type hints em funções e classes para deixar o código claro e autoexplicativo

@@ -47,5 +47,11 @@ Um programa sem tratamento de erros trava na primeira exceção. Com try/except,
 
 ## Exercícios
 
-- `exercicio_1.py` — calculadora com validação de entrada
-- `exercicio_2.py` — cadastro de alunos com médias
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Criar uma calculadora que nunca trava, mesmo com erros | `try/except`, `ValueError`, `ZeroDivisionError`, `break` |
+| `exercicio_2.py` | Cadastrar 3 alunos, calcular médias e salvar em arquivo | Funções, listas, `float()`, `with open()`, escrita em arquivo |
+
+**O que cada exercício ensina:**
+- **exercicio_1.py**: Como usar `try/except` para capturar erros e mostrar mensagens amigáveis em vez de o programa travar
+- **exercicio_2.py**: Como combinar tratamento de erros com funções e manipulação de arquivos para criar um sistema completo

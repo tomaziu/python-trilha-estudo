@@ -35,6 +35,13 @@ Sem variáveis e tipos, não existe programa. Tudo em Python começa aqui — de
 
 ## Exercícios
 
-- `exercicio_1.py` — calculadora básica com input do usuário
-- `exercicio_2.py` — conversor de temperaturas
-- `exercicio_3.py` — dados pessoais com f-strings
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Criar variáveis com dados pessoais e mostrar na tela | Variáveis `str` e `int`, f-strings com `{variavel}` |
+| `exercicio_2.py` | Fazer operações matemáticas (soma, subtração, multiplicação) | Operadores `+`, `-`, `*`, `/`, `//`, `%` |
+| `exercicio_3.py` | Pedir números ao usuário e calcular a soma | `input()`, conversão com `int()`, por que sempre retorna texto |
+
+**O que cada exercício ensina:**
+- **exercicio_1.py**: Como guardar dados em variáveis e usar f-strings para mostrar texto com valores dinâmicos
+- **exercicio_2.py**: Todos os operadores matemáticos do Python e a diferença entre `/` (divisão normal) e `//` (divisão inteira)
+- **exercicio_3.py**: Por que `input()` sempre retorna texto e como converter para número com `int()`

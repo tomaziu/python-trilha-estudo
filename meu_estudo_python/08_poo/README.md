@@ -50,6 +50,13 @@ POO organiza código grande em partes lógicas. Em vez de ter 50 funções solta
 
 ## Exercícios
 
-- `exercicio_1.py` — classes Pessoa, Animal
-- `exercicio_2.py` — herança com funcionário/gerente
-- `exercicio_3.py` — método especial `__add__` com Playlist
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Criar uma classe Pessoa com nome e idade | `class`, `__init__`, `self`, métodos |
+| `exercicio_2.py` | Criar hierarquia: Funcionário → Gerente e Atendente | Herança, `super()`, sobrescrita de métodos |
+| `exercicio_3.py` | Criar uma Playlist que pode ser somada com outra | `__str__`, `__len__`, `__add__` (métodos mágicos) |
+
+**O que cada exercício ensina:**
+- **exercicio_1.py**: O básico de POO — como criar uma classe, o que é `__init__` e `self`, e como chamar métodos
+- **exercicio_2.py**: Como uma classe pode HERDAR de outra e como usar `super()` para reutilizar código
+- **exercicio_3.py**: Como usar métodos especiais para fazer objetos funcionarem com operadores como `+` e `print()`

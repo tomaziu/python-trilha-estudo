@@ -66,5 +66,11 @@ Pandas e requests são as bibliotecas mais usadas no mercado. Com requests você
 
 ## Exercícios
 
-- `exercicio_1.py` — consumo de API com requests
-- `exercicio_2.py` — análise de dados com pandas
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Buscar tarefas de uma API e filtrar as concluídas | `requests.get()`, `.json()`, list comprehension |
+| `exercicio_2.py` | Criar tabela de alunos, filtrar aprovados e salvar CSV | `pd.DataFrame()`, filtros, `.mean()`, `.to_csv()` |
+
+**O que cada exercício ensina:**
+- **exercicio_1.py**: Como buscar dados da internet com `requests`, converter para Python com `.json()` e filtrar resultados
+- **exercicio_2.py**: Como criar tabelas com pandas, filtrar linhas, calcular médias e salvar em arquivo CSV

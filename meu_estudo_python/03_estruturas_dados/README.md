@@ -45,4 +45,13 @@ Na vida real, você nunca trabalha com um único dado. Um cadastro tem nome, tel
 
 ## Exercícios
 
-- `exercicio_1.py` — agenda de contatos com busca
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Criar uma agenda de contatos que permite cadastrar, pesquisar e contar nomes únicos | Listas, `append()`, operador `in`, `set()`, `len()`, loops `for` e `while` |
+
+**O que o exercício ensina:**
+- **Listas**: Como criar uma lista vazia e adicionar itens com `append()`
+- **Busca em lista**: Como usar o operador `in` para verificar se um item existe
+- **Loop while**: Como criar um menu de busca que continua até o usuário querer parar
+- **Set (conjunto)**: Como usar `set()` para remover duplicatas automaticamente
+- **len()**: Como contar quantos itens existem em uma lista

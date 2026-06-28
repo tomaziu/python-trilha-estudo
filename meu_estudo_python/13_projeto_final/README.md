@@ -42,3 +42,16 @@ Um sistema que cadastra, busca, filtra e salva contatos em arquivo CSV.
 cd meu_estudo_python/13_projeto_final
 python main.py
 ```
+
+## Arquivos e o que cada um faz
+
+| Arquivo | O que ele faz | Conceitos aplicados |
+|---------|--------------|---------------------|
+| `contato.py` | Define a classe Contato (molde para criar contatos) | `class`, `__init__`, `self`, `__str__`, `to_dict()`, `@staticmethod` |
+| `main.py` | Menu principal, cadastro, busca, filtros e salvamento | Funções, loops, `csv`, `os`, list comprehension, POO |
+
+**Fluxo do programa:**
+1. Ao iniciar, lê o `contatos.csv` e carrega os contatos salvos
+2. Mostra um menu com 6 opções (cadastrar, listar, buscar, filtrar, estatísticas, sair)
+3. Cada opção chama uma função específica
+4. Ao sair, salva todos os contatos no arquivo CSV

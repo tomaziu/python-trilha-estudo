@@ -43,4 +43,12 @@ Programas precisam guardar dados além da memória. Arquivos são a forma mais s
 
 ## Exercícios
 
-- `exercicio_1.py` — cadastro de alunos com notas em arquivo
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Criar um sistema de cadastro que salva alunos em arquivo .txt | `with open()`, modo `w`, dicionários, listas, funções, menu |
+
+**O que o exercício ensina:**
+- **Como salvar dados em arquivo**: Usar `with open("arquivo.txt", "w")` para criar e escrever
+- **Dicionários**: Como guardar dados nomeados (nome, notas, média)
+- **Funções**: Como organizar o código em partes reutilizáveis
+- **Menu interativo**: Como criar um loop que mostra opções e executa ações

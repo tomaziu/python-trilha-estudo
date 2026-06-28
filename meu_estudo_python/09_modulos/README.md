@@ -61,5 +61,11 @@ A biblioteca padrão do Python já vem com dezenas de módulos prontos. Usar ele
 
 ## Exercícios
 
-- `exercicio_1.py` — gerador de senhas com random
-- `exercicio_2.py` — verificador de arquivo com os
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Gerar senhas aleatórias e sortear números | `from random import choice, randint`, `from math import sqrt` |
+| `exercicio_2.py` | Registrar acessos em arquivo com data e hora | `datetime`, `os.path.exists()`, `os.listdir()`, modos `w` e `a` |
+
+**O que cada exercício ensina:**
+- **exercicio_1.py**: Como importar funções específicas com `from...import` e usá-las para gerar dados aleatórios
+- **exercicio_2.py**: Como pegar a data/hora atual, verificar se um arquivo existe e listar arquivos da pasta

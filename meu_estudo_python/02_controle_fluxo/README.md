@@ -41,4 +41,13 @@ Todo programa precisa tomar decisões e repetir tarefas. Sem controle de fluxo, 
 
 ## Exercícios
 
-- `exercicio_1.py` — tabuada com for
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Criar um gerador de tabuada que continua rodando até o usuário querer parar | `while True`, `try/except`, `for` com `range()`, `break`, operador `%` |
+
+**O que o exercício ensina:**
+- **Loop while True**: Como criar um loop que repete infinitamente até dar `break`
+- **Tratamento de erros**: Como usar `try/except` para o programa não travar quando o usuário digita errado
+- **Loop for**: Como usar `range(1, 11)` para gerar números de 1 a 10
+- **Operador módulo (%)**: Como verificar se um número é par (resto da divisão por 2 = 0)
+- **Métodos de string**: `.strip()` para remover espaços e `.lower()` para converter para minúsculo

@@ -51,6 +51,13 @@ Funções evitam código duplicado, facilitam correção de bugs (muda em um lug
 
 ## Exercícios
 
-- `exercicio_1.py` — calculadora de média
-- `exercicio_2.py` — funções com *args e **kwargs
-- `exercicio_3.py` — escopo local vs global
+| Arquivo | O que você vai fazer | Conceitos aplicados |
+|---------|---------------------|---------------------|
+| `exercicio_1.py` | Criar uma função que verifica se um número é par ou ímpar | `def`, parâmetros, `return`, operador `%` |
+| `exercicio_2.py` | Criar funções que aceitam qualquer quantidade de argumentos | `*args`, `**kwargs`, `sum()`, `len()`, `.items()` |
+| `exercicio_3.py` | Entender a diferença entre variáveis locais e globais | Escopo local, escopo global, `+=` |
+
+**O que cada exercício ensina:**
+- **exercicio_1.py**: Como criar uma função simples com `def`, passar dados via parâmetro e devolver resultado com `return`
+- **exercicio_2.py**: Como usar `*args` para aceitar N números e `**kwargs` para aceitar dados nomeados como dicionário
+- **exercicio_3.py**: Por que variáveis dentro de funções são LOCAIS (morrem quando a função termina) e variáveis fora são GLOBAIS
