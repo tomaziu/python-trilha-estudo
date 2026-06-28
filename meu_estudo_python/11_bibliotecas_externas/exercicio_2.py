@@ -1,18 +1,46 @@
+# EXERCÍCIO: Análise de Dados com pandas
+# Objetivo: Aprender a trabalhar com tabelas
+
 import pandas as pd
 
+# PASSO 1: Criar dados
+# pandas precisa de um dicionário
 dados = {
-    "nome": ["Ana", "João", "Carlos", "Maria", "Pedro"],
-    "nota": [9, 5, 7, 4, 8],
-    "aprovado": [True, False, True, False, True]
+    "nome": ["Ana", "João", "Carlos", "Maria", "Pedro", "Lucia"],
+    "nota": [9.0, 5.5, 7.0, 4.5, 8.5, 6.0],
+    "aprovado": [True, False, True, False, True, False]
 }
 
+# PASSO 2: Criar DataFrame (tabela)
 df = pd.DataFrame(dados)
+print("═══ Tabela Completa ═══")
+print(df)
 
-df_aprovados = df[df["aprovado"] == True]
+# PASSO 3: Filtrar aprovados
+# df[df["aprovado"] == True] mantém apenas linhas True
+aprovados = df[df["aprovado"] == True]
+print("\n═══ Apenas Aprovados ═══")
+print(aprovados)
 
-print(df_aprovados)
+# PASSO 4: Calcular estatísticas
+media_geral = df["nota"].mean()  # Média de todas as notas
+media_aprovados = aprovados["nota"].mean()
+print(f"\nMédia geral: {media_geral:.2f}")
+print(f"Média dos aprovados: {media_aprovados:.2f}")
 
-media_notas = df_aprovados["nota"].mean()
-print("Média das notas:", media_notas)
+# PASSO 5: Salvar em CSV
+# to_csv() salva como arquivo de tabela
+aprovados.to_csv("resultado.csv", sep=';', index=False)
+print("\n✓ Dados salvos em 'resultado.csv'")
 
-df_aprovados.to_csv("resultado.csv", sep=';', index=False)
+# COMO FUNCIONA:
+# pd.DataFrame(dados) → cria tabela bonita
+# df[df["nota"] >= 7] → filtra linhas
+# .mean() → calcula média
+# .to_csv() → salva arquivo
+
+# PANDAS É UM EXCEL EM PYTHON!
+# - Filtrar: df[df["coluna"] > 5]
+# - Média: df["coluna"].mean()
+# - Somar: df["coluna"].sum()
+# - Contar: df["coluna"].count()
