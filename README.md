@@ -1,63 +1,78 @@
-# 🐍 python-trilha-estudo
+# python-trilha-estudo
+
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/Status-Em%20andamento-yellow)](https://github.com/tomaziu/python-trilha-estudo)
 
 <p align="center">
   <img src=".github/banner.png" alt="python-trilha-estudo banner" width="100%">
 </p>
 
-**Minha jornada de estudos em Python** 🚀
-
 Repositório com exercícios, anotações, projetos e desafios enquanto evoluo na linguagem Python.
 
 ---
 
-## 📚 O que você encontra aqui
+## Como usar este repositório
 
-| Conceitos e teoria | Exercícios práticos | Projetos e desafios | Evolução constante |
-|:---:|:---:|:---:|:---:|
-| 📖 | `</>` | `>_` | 📈 |
+Cada pasta representa um tópico de estudo, organizado do básico ao avançado. Siga a ordem dos módulos para uma evolução consistente:
 
----
-
-## 📂 Estrutura do repositório
-
-| Módulo | Tema | O que pratica |
-|--------|------|---------------|
-| `01_fundamentos` | Variáveis, tipos, operadores | Criar variáveis, f-strings, input() |
-| `02_controle_fluxo` | if/else, for, while | Laços, condições, break/continue |
-| `03_estruturas_dados` | Listas, tuplas, dicionários | Guardar e buscar dados |
-| `04_funcoes` | def, return, args | Funções reutilizáveis |
-| `05_strings` | Fatiamento, métodos | Manipular textos |
-| `06_erros` | try/except | Tratar erros sem travar |
-| `07_arquivos` | Leitura e escrita | Salvar dados em .txt |
-| `08_poo` | Classes, herança | Programação orientada a objetos |
-| `09_modulos` | random, datetime, os | Biblioteca padrão |
-| `10_comprehensions` | List/Dict/Set | Listas e dicts em 1 linha |
-| `11_bibliotecas_externas` | requests, pandas | APIs e análise de dados |
-| `12_boas_praticas` | PEP8, type hints | Código profissional |
-| `13_projeto_final` | Gerenciador de Contatos | Projeto integrador |
-
----
-
-## 🚀 Como rodar
+1. Comece pelo `01_fundamentos` e avance sequencialmente
+2. Cada pasta contém um `README.md` com a teoria e os exercícios
+3. Cada exercício tem comentários explicando o código linha a linha
+4. Tente resolver antes de olhar a resposta
 
 ```bash
-# Clonar o repositório
+# Navegue até a pasta do módulo
+cd meu_estudo_python/01_fundamentos
+
+# Execute o exercício
+python exercicio_1.py
+```
+
+---
+
+## Pré-requisitos
+
+- [Python 3.x](https://www.python.org/downloads/) instalado
+- Noções básicas de terminal (navegar pastas e executar comandos)
+- Um editor de código (VS Code, PyCharm ou similar)
+
+---
+
+## Estrutura do repositório
+
+| Módulo | Tópico | Conceitos |
+|--------|--------|-----------|
+| 01 | Fundamentos | variáveis, tipos, operadores, f-strings, input |
+| 02 | Controle de Fluxo | if/elif/else, for, while, break, continue |
+| 03 | Estruturas de Dados | listas, tuplas, dicionários, sets |
+| 04 | Funções | def, return, parâmetros, *args, **kwargs, escopo |
+| 05 | Strings | fatiamento, métodos, split, join, validação |
+| 06 | Tratamento de Erros | try/except, finally, tipos de erro |
+| 07 | Manipulação de Arquivos | open, read, write, with, modos r/w/a |
+| 08 | Programação Orientada a Objetos | classes, herança, super, métodos especiais |
+| 09 | Módulos e Biblioteca Padrão | random, datetime, os, math |
+| 10 | Comprehensions | list comprehension, dict comprehension, set comprehension |
+| 11 | Bibliotecas Externas | requests (APIs), pandas (análise de dados) |
+| 12 | Boas Práticas | PEP8, type hints, virtualenv |
+| 13 | Projeto Final | Gerenciador de Contatos (projeto integrador) |
+
+---
+
+## Como rodar
+
+```bash
+# Clone o repositório
 git clone https://github.com/tomaziu/python-trilha-estudo.git
 
-# Entrar na pasta
+# Entre na pasta
 cd python-trilha-estudo
 
-# Rodar qualquer exercício
+# Execute qualquer exercício
 python meu_estudo_python/01_fundamentos/exercicio_1.py
 ```
 
 ---
 
-## 💡 Frase motivacional
+## Contato
 
-> *"A prática leva à perfeição."*
-> — Python
-
----
-
-**Feito com dedicação durante meus estudos em Python** 🐍
+- GitHub: [github.com/tomaziu](https://github.com/tomaziu)
