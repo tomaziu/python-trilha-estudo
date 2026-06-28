@@ -10,8 +10,10 @@
 
 # Trilha de Estudo — Python 🐍
 
-Repositório com meu progresso de aprendizado em Python, do básico ao avançado.  
+Repositório com meu progresso de aprendizado em Python, do básico ao avançado.
 Aqui você encontra exercícios práticos, anotações, projetos e desafios organizados por tópico.
+
+> Este projeto é baseado no meu próprio estudo e evolução na linguagem. Cada exercício foi desenvolvido durante minha jornada de aprendizado, com o objetivo de consolidar os conceitos de forma prática.
 
 ---
 
