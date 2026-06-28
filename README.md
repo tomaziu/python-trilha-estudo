@@ -1,56 +1,63 @@
-# Trilha de Estudo — Python
+# 🐍 python-trilha-estudo
 
-Repositório com meu progresso de aprendizado em Python, do básico ao avançado.
+<p align="center">
+  <img src=".github/banner.png" alt="python-trilha-estudo banner" width="100%">
+</p>
 
-## Estrutura
+**Minha jornada de estudos em Python** 🚀
 
-```
-meu_estudo_python/
-├── sessao_python.md              # Controle de progresso e histórico
-├── 01_fundamentos/               # Variáveis, tipos, operadores
-├── 02_controle_fluxo/            # if/else, for, while
-├── 03_estruturas_dados/          # listas, tuplas, dicts, sets
-├── 04_funcoes/                   # parâmetros, retorno, escopo
-├── 05_strings/                   # fatiamento, métodos, f-strings
-├── 06_erros/                     # try/except, finally
-├── 07_arquivos/                  # open, read, write, with
-├── 08_poo/                       # classes, herança, métodos especiais
-├── 09_modulos/                   # import, math, random, datetime, os
-├── 10_comprehensions/            # list/dict/set comprehension
-├── 11_bibliotecas_externas/      # pandas, requests
-├── 12_boas_praticas/             # PEP8, type hints, virtualenv
-└── 13_projeto_final/             # Gerenciador de Contatos
-```
+Repositório com exercícios, anotações, projetos e desafios enquanto evoluo na linguagem Python.
 
-## Como usar
+---
+
+## 📚 O que você encontra aqui
+
+| Conceitos e teoria | Exercícios práticos | Projetos e desafios | Evolução constante |
+|:---:|:---:|:---:|:---:|
+| 📖 | `</>` | `>_` | 📈 |
+
+---
+
+## 📂 Estrutura do repositório
+
+| Módulo | Tema | O que pratica |
+|--------|------|---------------|
+| `01_fundamentos` | Variáveis, tipos, operadores | Criar variáveis, f-strings, input() |
+| `02_controle_fluxo` | if/else, for, while | Laços, condições, break/continue |
+| `03_estruturas_dados` | Listas, tuplas, dicionários | Guardar e buscar dados |
+| `04_funcoes` | def, return, args | Funções reutilizáveis |
+| `05_strings` | Fatiamento, métodos | Manipular textos |
+| `06_erros` | try/except | Tratar erros sem travar |
+| `07_arquivos` | Leitura e escrita | Salvar dados em .txt |
+| `08_poo` | Classes, herança | Programação orientada a objetos |
+| `09_modulos` | random, datetime, os | Biblioteca padrão |
+| `10_comprehensions` | List/Dict/Set | Listas e dicts em 1 linha |
+| `11_bibliotecas_externas` | requests, pandas | APIs e análise de dados |
+| `12_boas_praticas` | PEP8, type hints | Código profissional |
+| `13_projeto_final` | Gerenciador de Contatos | Projeto integrador |
+
+---
+
+## 🚀 Como rodar
 
 ```bash
-# Clonar
-git clone https://github.com/SEU_USER/python-trilha-estudo.git
+# Clonar o repositório
+git clone https://github.com/tomaziu/python-trilha-estudo.git
+
+# Entrar na pasta
 cd python-trilha-estudo
 
-# Criar ambiente virtual
-python -m venv venv
-venv\Scripts\Activate.ps1
-
-# Instalar dependências
-pip install -r requirements.txt
+# Rodar qualquer exercício
+python meu_estudo_python/01_fundamentos/exercicio_1.py
 ```
 
-## Progresso
+---
 
-| # | Tópico | Status |
-|---|--------|--------|
-| 01 | Fundamentos | ✅ |
-| 02 | Controle de Fluxo | ✅ |
-| 03 | Estruturas de Dados | ✅ |
-| 04 | Funções | ✅ |
-| 05 | Strings | ✅ |
-| 06 | Erros | ✅ |
-| 07 | Arquivos | ✅ |
-| 08 | POO | ✅ |
-| 09 | Módulos | ✅ |
-| 10 | Comprehensions | ✅ |
-| 11 | Bibliotecas Externas | ✅ |
-| 12 | Boas Práticas | ✅ |
-| 13 | Projeto Final | ⏳ |
+## 💡 Frase motivacional
+
+> *"A prática leva à perfeição."*
+> — Python
+
+---
+
+**Feito com dedicação durante meus estudos em Python** 🐍
