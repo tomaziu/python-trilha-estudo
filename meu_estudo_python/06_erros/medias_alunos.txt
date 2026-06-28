@@ -1,0 +1,6 @@
+A média do aluno 1 é: 5.00
+A média do aluno 2 é: 5.00
+A média do aluno 3 é: 5.00
+A média do aluno 1 é: 5.00
+A média do aluno 2 é: 5.00
+A média do aluno 3 é: 5.00
