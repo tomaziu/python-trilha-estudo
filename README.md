@@ -4,8 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Status-Em%20andamento-yellow" alt="Status">
-  <img src="https://img.shields.io/badge/Tópicos%20concluídos-12%2F13-green" alt="Progresso">
+  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/Tópicos%20concluídos-13%2F13-green" alt="Progresso">
 </p>
 
 # Trilha de Estudo — Python 🐍
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 | 10 | Comprehensions | list/dict/set comprehension, generators | ✅ |
 | 11 | Bibliotecas Externas | pandas, requests, pip | ✅ |
 | 12 | Boas Práticas | PEP8, type hints, virtualenv, docstrings | ✅ |
-| 13 | Projeto Final | Gerenciador de Contatos completo | ⏳ |
+| 13 | Projeto Final | Gerenciador de Contatos completo | ✅ |
 
 ---
 
