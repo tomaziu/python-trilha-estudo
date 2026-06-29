@@ -18,28 +18,7 @@ class Contato:
         """Define o que aparece ao fazer print(contato)"""
         return f"{self.nome} | {self.telefone} | {self.email} | {self.cidade}"
 
-    def to_dict(self) -> dict:
-        """Converte para dicionário (para salvar no CSV)"""
-        return {
-            "nome": self.nome,
-            "telefone": self.telefone,
-            "email": self.email,
-            "cidade": self.cidade
-        }
-
-    @staticmethod  # Método que não precisa de self
-    def from_dict(dados: dict) -> "Contato":
-        """Cria Contato a partir de um dicionário"""
-        return Contato(
-            dados["nome"],
-            dados["telefone"],
-            dados["email"],
-            dados["cidade"]
-        )
-
-# COMO FUNCIONA:
 # contato = Contato("ana", "12345", "ana@email.com", "são paulo")
 # contato.nome → "Ana" (formato title)
 # contato.email → "ana@email.com" (formato lower)
 # contato.cidade → "São Paulo" (formato title)
-# str(contato) → "Ana | 12345 | ana@email.com | São Paulo"
