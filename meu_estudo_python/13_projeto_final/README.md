@@ -47,7 +47,7 @@ python main.py
 
 | Arquivo | O que ele faz | Conceitos aplicados |
 |---------|--------------|---------------------|
-| `contato.py` | Define a classe Contato (molde para criar contatos) | `class`, `__init__`, `self`, `__str__`, `to_dict()`, `@staticmethod` |
+| `contato.py` | Define a classe Contato (molde para criar contatos) | `class`, `__init__`, `self`, `__str__` |
 | `main.py` | Menu principal, cadastro, busca, filtros e salvamento | Funções, loops, `csv`, `os`, list comprehension, POO |
 
 **Fluxo do programa:**
